@@ -28,3 +28,21 @@ const func = function(){
     console.log("Hello World");
 };
 console.log(typeof bigNumber)
+
+// Stack(Primitive Datatypes //Copy ), Heap(Non-Primitive Datatypes)
+
+let myName = "Kshitij Thaware"
+let anotherName = myName
+anotherName = "Mrunal Thaware"
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "kshitij@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
