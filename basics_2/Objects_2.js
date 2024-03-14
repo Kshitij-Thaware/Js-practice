@@ -45,7 +45,7 @@ const users = [
         id: 3,
         email: "smit@gedam.com"
     }
-]
+] 
 
 // console.log(users[0].email);
 // console.log(tinderuser);
