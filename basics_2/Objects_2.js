@@ -55,4 +55,36 @@ const users = [
 
 // console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('email'))
+// console.log(tinderuser.hasOwnProperty('email'))
+
+
+
+// Destructuring 
+
+const course = {
+    coursename: "Devopd",
+    price: 999,
+    courseInstructor: "Kshitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor :CI } = course
+// console.log(CI);
+
+
+// API's
+// {
+//     name: "Hitesh",
+//     price: 
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+
+
+
