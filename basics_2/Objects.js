@@ -2,6 +2,8 @@
 
 const mySym = Symbol("key1")
 
+// Object Literals ->
+
 const juser ={
     name: "Kshitij",
     age:19,
