@@ -19,4 +19,14 @@ function loginUserMessage(username = "user"){
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage("kshitijthaware2004"))
+// console.log(loginUserMessage("kshitijthaware2004"))
+
+
+function calculateCartPrice(...num1) {
+
+    return num1 
+}
+
+console.log(calculateCartPrice(400, 500, 600));
+
+
